@@ -36,5 +36,7 @@ const unsubscribe = store.subscribe(() => console.log('Updated state: ', store.g
 store.dispatch(buyToken())
 store.dispatch(buyToken())      // few more state transitions
 store.dispatch(buyToken())      // few more state transitions
+store.dispatch(buyToken())      // few more state transitions
+store.dispatch(buyToken())      // few more state transitions
 
 unsubscribe()
